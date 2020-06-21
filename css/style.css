@@ -1,0 +1,152 @@
+* mes styles*/
+
+/* MINI RESET : pour mettre a 0 toutes les valeurs avant 
+l interpretation de notre code par le navigateur*/
+*body {
+    *margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    /*supprime style par defaut des listes  les "." */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* supprime style pas defaut des textes, liens ,  
+ 	suppressions du soulignement des liens par ex*/
+
+/* FIN DU MINI RESET*/
+/* 16px=1rem */
+
+body {
+    background-image: url("../assets/back_got.jpg");
+    opacity:100%;
+    /* width :1920px;
+    height:1080px; */
+    margin-left:1.2rem;  
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #AABFC4;
+}
+
+.Gamecards{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff; 
+    /*-webkit-text-stroke-width: black;*/
+    margin-bottom: 1rem;
+}
+#hero{
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    
+}
+#vilain{
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    
+}
+#vilain:hover,#vilain.namev:hover,#hero:hover{
+    background-color: #1b4a53;
+    opacity:75%;
+}
+#floor{
+    margin-top: 2rem;
+}
+.nameh,.namev{
+    color:#D0DFE2;
+    font-style: bold;
+}
+.nameh:hover,.namev:hover{
+    color:#4D4F4C;
+    font-style: bold;
+}
+#result{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 7rem;
+    /* margin-bottom:1rem; */
+    /*color:goldenrod;*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: goldenrod;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; 
+    /-webkit-text-stroke-width:black;*/
+
+}
+
+#play{
+    /* margin-right:0.2rem; */
+    margin-top:2rem;
+    border-radius: 50px;
+    background-color: #000000;
+    background-image: url("../assets/butt.png");
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+    
+    height:102px;
+    width:103px; 
+    font-size: 1.3rem;
+    font-family: sans; color: goldenrod;
+    
+}
+#play:hover{
+    opacity:90;
+}
+.navpok.a.navbar.brand{
+    color:#D0DFE2
+}
+
+.nav-link{
+    flex:end
+}
+/* .flip {
+    height: 260px;
+    width: 178px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 260px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center; */
+
+  /* **************************carousel *******************************************************/
+
+.carousel-item{
+    border:2px solid #DFE8EA;
+  }
+  .carousel .carousel-item {
+    transition-duration: 2.5s;
+  }
+  
+  .singlelogos:hover{
+    opacity:0.99;
+    transition: all 0.2s ease-out;
+  } 
+  .singlelogos{
+    opacity:0.88;
+    margin: auto;
+    
+  }
+ 
+  /* ***********************************fin carousel *******************************************************************/
+  .intro{
+      color:#DFE8EA;
+  }
+
+  .gamepub{
+      opacity:90%;
+  }
