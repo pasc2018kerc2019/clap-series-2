@@ -26,7 +26,7 @@ body {
     background-image: url("../assets/back_got.jpg");
     opacity:100%;
     
-    margin-left:1.2rem;  
+    /* margin-left:1.2rem;   */
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
