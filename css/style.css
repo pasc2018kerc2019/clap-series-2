@@ -5,6 +5,7 @@ l interpretation de notre code par le navigateur*/
 *body {
     *margin: 0;
     padding: 0;
+    outline:none;
 }
 
 ul {
