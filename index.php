@@ -98,7 +98,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid gamepub">
+  <div class="row gamepub">
 
     <div class="row text-center bg-dark mt-5 h-40 ">
 
@@ -176,6 +176,7 @@
         </a>
       </div>
     </div>
+</div> 
     <!-- footer---------------------------------------------------->
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark">
