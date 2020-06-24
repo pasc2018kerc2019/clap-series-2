@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="col-2 lancejeu text-center ">
-        <button type="button" id="play" onclick="flip()"class="btn-dark vertical-align-center">JOUER !</button>
+        <button type="button" id="play" onclick="flip()" class="btn-dark vertical-align-center">JOUER !</button>
         <div class="win">
           <p id="result"></p>
         </div>
@@ -100,7 +100,7 @@
   </div>
   <div class="row gamepub">
 
-    <div class="row text-center bg-dark mt-5 h-40 ">
+    <div class="row text-center bg-dark mt-5 mb-4 h-40 ">
 
       <div class="col-6 ">
 
@@ -313,7 +313,6 @@
 
 </body>
 
-<script type="module" src="js/startgame.js">
-</script>
+<script src = "js/App.js"></script>
 
 </html>
